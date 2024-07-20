@@ -4,7 +4,6 @@ import { useQuery } from "@tanstack/react-query";
 import { fetchDogs, useImagesPerPage } from "@/modules/app";
 import Loader from "@/assets/loading.svg";
 import Image from "next/image";
-// Adjust the import as needed
 
 interface ButtonPaginationProps {
   initialDogs: string[];

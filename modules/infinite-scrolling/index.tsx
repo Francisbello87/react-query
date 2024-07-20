@@ -1,4 +1,3 @@
-// modules/infinite-scrolling.tsx
 "use client";
 import React, { useEffect, useRef } from "react";
 import { useInfiniteQuery } from "@tanstack/react-query";
